@@ -46,8 +46,9 @@
 <script>
 import { db } from "../firebaseDatabase";
 import { ref, onMounted } from "vue";
-import boligStuff from "../../eiendomsmegler1.json";
-import dnbEiendom from "../../dnbeiendom.json";
+import boligStuff from "../../data_eiendomsmegler1.json";
+import dnbEiendom from "../../data_dnbeiendom.json";
+import privatmeglerenData from "../../data_privatmegleren.json";
 
 export default {
   setup() {
@@ -69,6 +70,13 @@ export default {
         const infoObject = dnbEiendom[key];
         Buildings.value.push(infoObject);
       });
+      let privatmeglerenKeys = Object.keys(privatmeglerenData);
+      privatmeglerenKeys = privatmeglerenKeys.filter((key) => key.length > 0);
+      console.log(privatmeglerenKeys);
+      privatmeglerenKeys.forEach((key) => {
+        const infoObject = privatmeglerenData[key];
+        Buildings.value.push(infoObject);
+      });
       console.log(Buildings.value);
       Buildings.value.sort((a, b) => (a.total_price > b.total_price ? 1 : -1));
     });
@@ -82,6 +90,16 @@ export default {
       }
       ascending.value = !ascending.value;
       console.log(Buildings.value);
+    }
+
+    function uploadData() {
+      Buildings.value.forEach((building) => {
+        db.collection("buildings")
+          .add(building)
+          .then(() => {
+            console.log("Building successfully added!");
+          });
+      });
     }
 
     function deleteUser(id) {
@@ -99,6 +117,7 @@ export default {
       Buildings,
       deleteUser,
       orderBy,
+      uploadData,
     };
   },
 };

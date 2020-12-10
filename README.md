@@ -1,4 +1,4 @@
-# vue-firebase-setup
+# Boligsamler
 
 ## Project setup
 ```
