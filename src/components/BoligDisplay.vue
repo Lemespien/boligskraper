@@ -1,25 +1,98 @@
 <template>
-  <div class="row">
-    <div class="col-md-12">
-      <table class="table table-striped">
+  <div>
+    <div class="form-row align-items-center">
+      <div class="form-group col-md-4">
+        <label for="search">Søk på adresse eller lenke</label>
+        <input
+          class="form-control"
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Søk adresse/lenke"
+          v-model="searchText"
+          @change="searchAll"
+        />
+      </div>
+      <div class="form-group col-md-2">
+        <label for="priceFrom">Pris fra (Prisantydning)</label>
+        <input
+          class="form-control"
+          type="text"
+          name="priceFrom"
+          id="searchPriceFrom"
+          pattern="([0-9]+.{0,1}[0-9]*,{0,1})*[0-9]"
+          placeholder="Pris fra"
+          v-model="searchPriceFrom"
+          @change="searchAll"
+        />
+      </div>
+      <div class="form-group col-md-2">
+        <label for="priceTo">Pris til (Prisantydning)</label>
+        <input
+          class="form-control"
+          type="text"
+          name="priceTo"
+          id="searchPriceTo"
+          pattern="([0-9]+.{0,1}[0-9]*,{0,1})*[0-9]"
+          placeholder="Pris til"
+          v-model="searchPriceTo"
+          @change="searchAll"
+        />
+      </div>
+      <div class="form-group col-md-1">
+        <label for="bedrooms">Soverom</label>
+        <select
+          class="form-control"
+          v-model="searchBedroom"
+          name="bedrooms"
+          @change="searchAll"
+        >
+          <option
+            v-for="bedroom in parseInt(bedroomCount)"
+            v-bind:key="bedroom"
+            :value="bedroom"
+          >
+            {{ bedroom }}
+          </option>
+        </select>
+      </div>
+      <div class="form-group col-md-1 align-self-end">
+        <button class="btn btn-primary" @click="searchAll">Søk</button>
+      </div>
+      <div class="form-group col-md-2 align-self-end" v-if="searchResult.length > 0">
+        <button class="btn btn-primary" @click="clearFilter">
+          Reset filter
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="row" v-if="searchResult.length > 0">
+    <div class="searchWrapper col-md-12">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h3>Søkeresultat</h3>
+        </div>
+      </div>
+      <table class="table table-primary">
         <thead>
           <tr>
             <th>Bilde</th>
             <th>Adresse</th>
-            <th @click="orderBy('rooms')">Rom</th>
+            <th @click="orderBy('rooms')">Soverom</th>
+            <th>Size</th>
             <th @click="orderBy('type')">Type</th>
             <th @click="orderBy('asking_price')">Priantydning</th>
             <th @click="orderBy('total_price')">Totalpris</th>
             <th>Lenke</th>
             <th>Område</th>
-            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="building in Buildings" :key="building.key">
+          <tr v-for="building in searchResult" :key="building.key">
             <td><img :src="building.image" class="table_image" /></td>
             <td>{{ building.address }}, {{ building.zip_code }}</td>
-            <td>{{ building.rooms || "Ikke spesifisert" }}</td>
+            <td>{{ building.bedrooms || "Ikke spesifisert" }}</td>
+            <td>{{ building.primary_room_size }}</td>
             <td>{{ building.type || "Ikke spesifisert" }}</td>
             <td>{{ Number(building.asking_price).toLocaleString() }}</td>
             <td>{{ Number(building.total_price).toLocaleString() }}</td>
@@ -29,13 +102,42 @@
             <td>
               {{ building.area || `${building.city}, ${building.zip_code}` }}
             </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row"></div>
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Bilde</th>
+            <th>Adresse</th>
+            <th @click="orderBy('rooms')">Soverom</th>
+            <th>Size</th>
+            <th @click="orderBy('type')">Type</th>
+            <th @click="orderBy('asking_price')">Priantydning</th>
+            <th @click="orderBy('total_price')">Totalpris</th>
+            <th>Lenke</th>
+            <th>Område</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="building in Buildings" :key="building.key">
+            <td><img :src="building.image" class="table_image" /></td>
+            <td>{{ building.address }}, {{ building.zip_code }}</td>
+            <td>{{ building.bedrooms || "Ikke spesifisert" }}</td>
+            <td>{{ building.primary_room_size }}</td>
+            <td>{{ building.type || "Ikke spesifisert" }}</td>
+            <td>{{ Number(building.asking_price).toLocaleString() }}</td>
+            <td>{{ Number(building.total_price).toLocaleString() }}</td>
             <td>
-              <button
-                @click.prevent="deleteUser(building.key)"
-                class="btn btn-danger"
-              >
-                Delete
-              </button>
+              <a :href="building.link">Lenke</a>
+            </td>
+            <td>
+              {{ building.area || `${building.city}, ${building.zip_code}` }}
             </td>
           </tr>
         </tbody>
@@ -44,42 +146,52 @@
   </div>
 </template>
 <script>
-import { db } from "../firebaseDatabase";
 import { ref, onMounted } from "vue";
-import boligStuff from "../../data_eiendomsmegler1.json";
-import dnbEiendom from "../../data_dnbeiendom.json";
-import privatmeglerenData from "../../data_privatmegleren.json";
+import boligStuff from "../../data/data_eiendomsmegler1.json";
+import dnbEiendom from "../../data/data_dnbeiendom.json";
+import privatmeglerenData from "../../data/data_privatmegleren.json";
+import eieData from "../../data/data_eie.json";
 
 export default {
   setup() {
     const Buildings = ref([]);
     const ascending = ref(false);
+    const searchText = ref("");
+    const searchPriceFrom = ref("0");
+    const searchPriceTo = ref("0");
+    const searchResult = ref([]);
+    const searchBedroom = ref(0);
+    const bedroomCount = ref(1);
     onMounted(() => {
-      console.log(boligStuff);
       let eiendomsmeglerKeys = Object.keys(boligStuff);
       eiendomsmeglerKeys = eiendomsmeglerKeys.filter((key) => key.length > 0);
-      eiendomsmeglerKeys.forEach((key) => {
-        const infoObject = boligStuff[key];
-        Buildings.value.push(infoObject);
-      });
+      addBuildingDataToBuildings(eiendomsmeglerKeys, boligStuff);
 
       let dnbKeys = Object.keys(dnbEiendom);
       dnbKeys = dnbKeys.filter((key) => key.length > 0);
-      console.log(dnbKeys);
-      dnbKeys.forEach((key) => {
-        const infoObject = dnbEiendom[key];
-        Buildings.value.push(infoObject);
-      });
+      addBuildingDataToBuildings(dnbKeys, dnbEiendom);
+
       let privatmeglerenKeys = Object.keys(privatmeglerenData);
       privatmeglerenKeys = privatmeglerenKeys.filter((key) => key.length > 0);
-      console.log(privatmeglerenKeys);
-      privatmeglerenKeys.forEach((key) => {
-        const infoObject = privatmeglerenData[key];
-        Buildings.value.push(infoObject);
-      });
-      console.log(Buildings.value);
+      addBuildingDataToBuildings(privatmeglerenKeys, privatmeglerenData);
+
+      let eieKeys = Object.keys(eieData);
+      eieKeys = eieKeys.filter((key) => key.length > 0);
+      addBuildingDataToBuildings(eieKeys, eieData);
+
+      console.log(bedroomCount.value);
       Buildings.value.sort((a, b) => (a.total_price > b.total_price ? 1 : -1));
     });
+
+    function addBuildingDataToBuildings(realEstates, realEstateData) {
+      realEstates.forEach((key) => {
+        const infoObject = realEstateData[key];
+        if (infoObject.bedrooms > bedroomCount.value) {
+          bedroomCount.value = infoObject.bedrooms;
+        }
+        Buildings.value.push(infoObject);
+      });
+    }
 
     function orderBy(orderBy) {
       // Buildings
@@ -92,32 +204,112 @@ export default {
       console.log(Buildings.value);
     }
 
-    function uploadData() {
+    function search() {
+      searchResult.value = [];
+      if (searchText.value.length <= 0) return;
       Buildings.value.forEach((building) => {
-        db.collection("buildings")
-          .add(building)
-          .then(() => {
-            console.log("Building successfully added!");
-          });
+        if (
+          building["address"]
+            ?.toLowerCase()
+            .includes(searchText.value.toLowerCase())
+        ) {
+          searchResult.value.push(building);
+        } else if (
+          building["link"]
+            ?.toLowerCase()
+            .includes(searchText.value.toLowerCase())
+        ) {
+          searchResult.value.push(building);
+        }
+      });
+    }
+    function bedroomSearch() {
+      searchResult.value = [];
+      if (searchBedroom.value == 0) return;
+      Buildings.value.forEach((building) => {
+        if (parseInt(building["bedrooms"]) == searchBedroom.value) {
+          searchResult.value.push(building);
+        }
       });
     }
 
-    function deleteUser(id) {
-      if (window.confirm("Do you really want to delete?")) {
-        db.collection("users")
-          .doc(id)
-          .delete()
-          .then(() => {
-            console.log("Document deleted!");
-          })
-          .catch((error) => console.error(error));
+    function priceSearch() {
+      searchResult.value = [];
+
+      const priceTo = parseInt(searchPriceTo.value);
+      if (priceTo <= 0) return;
+      if (parseInt(searchPriceFrom.value) > priceTo) {
+        searchPriceFrom.value = priceTo;
       }
+      const priceFrom = parseInt(searchPriceFrom.value);
+      Buildings.value.forEach((building) => {
+        const buildingPrice = parseInt(building["asking_price"]);
+        if (buildingPrice > priceFrom && buildingPrice < priceTo) {
+          searchResult.value.push(building);
+        }
+      });
     }
+
+    function searchAll() {
+      searchResult.value = [];
+      const priceTo = parseInt(searchPriceTo.value);
+      if (
+        priceTo <= 0 &&
+        searchBedroom.value == 0 &&
+        searchText.value.length <= 0
+      )
+        return;
+
+      if (parseInt(searchPriceFrom.value) > priceTo) {
+        searchPriceFrom.value = priceTo;
+      }
+      const priceFrom = parseInt(searchPriceFrom.value);
+      Buildings.value.forEach((building) => {
+        const bedrooms = parseInt(building["bedrooms"]);
+        const buildingPrice = parseInt(building["asking_price"]);
+        const address = building["address"];
+        const link = building["link"];
+
+        let bedroomMatch = true;
+        if (searchBedroom.value != 0 && bedrooms != searchBedroom.value) {
+          bedroomMatch = false;
+        }
+        let priceMatch = true;
+        if (priceTo > 0 && (buildingPrice < priceFrom || buildingPrice > priceTo)) {
+          priceMatch = false;
+        }
+        let searchMatch = true;
+        if (searchText.value.length > 0 && !address?.includes(searchText.value) && !link?.includes(searchText.value)) {
+          searchMatch = false;
+        }
+        if (bedroomMatch && priceMatch && searchMatch) {
+          searchResult.value.push(building);
+        }
+      });
+    }
+
+    function clearFilter() {
+      searchText.value = "";
+      searchPriceTo.value = 0;
+      searchPriceFrom.value = 0;
+      searchBedroom.value = 0;
+      searchResult.value = [];
+    }
+
     return {
       Buildings,
-      deleteUser,
       orderBy,
-      uploadData,
+      search,
+      searchText,
+      searchResult,
+      searchPriceFrom,
+      searchPriceTo,
+      bedroomSearch,
+      priceSearch,
+      bedroomCount,
+      searchBedroom,
+      clearFilter,
+      searchAll,
     };
   },
 };
