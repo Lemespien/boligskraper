@@ -147,10 +147,6 @@
 </template>
 <script>
 import { ref, onMounted } from "vue";
-import boligStuff from "../../data/data_eiendomsmegler1.json";
-import dnbEiendom from "../../data/data_dnbeiendom.json";
-import privatmeglerenData from "../../data/data_privatmegleren.json";
-import eieData from "../../data/data_eie.json";
 
 export default {
   setup() {
@@ -163,25 +159,21 @@ export default {
     const searchBedroom = ref(0);
     const bedroomCount = ref(1);
     onMounted(() => {
-      let eiendomsmeglerKeys = Object.keys(boligStuff);
-      eiendomsmeglerKeys = eiendomsmeglerKeys.filter((key) => key.length > 0);
-      addBuildingDataToBuildings(eiendomsmeglerKeys, boligStuff);
-
-      let dnbKeys = Object.keys(dnbEiendom);
-      dnbKeys = dnbKeys.filter((key) => key.length > 0);
-      addBuildingDataToBuildings(dnbKeys, dnbEiendom);
-
-      let privatmeglerenKeys = Object.keys(privatmeglerenData);
-      privatmeglerenKeys = privatmeglerenKeys.filter((key) => key.length > 0);
-      addBuildingDataToBuildings(privatmeglerenKeys, privatmeglerenData);
-
-      let eieKeys = Object.keys(eieData);
-      eieKeys = eieKeys.filter((key) => key.length > 0);
-      addBuildingDataToBuildings(eieKeys, eieData);
-
-      console.log(bedroomCount.value);
-      Buildings.value.sort((a, b) => (a.total_price > b.total_price ? 1 : -1));
+      fetchData();
     });
+
+    async function fetchData() {
+      const URLs = ["data_eiendomsmegler1.json", "data_dnbeiendom.json", "data_eie.json", "data_privatmegleren.json"];
+      const promises = URLs.map(url => fetch("data/" + url).then(response => response.json()));
+      const values = await Promise.all(promises);
+      values.forEach(value => {
+        let keys = Object.keys(value);
+        keys = keys.filter(key => key.length > 0);
+        addBuildingDataToBuildings(keys, value);
+      });
+
+      Buildings.value.sort((a, b) => (a.total_price > b.total_price ? 1 : -1));
+    }
 
     function addBuildingDataToBuildings(realEstates, realEstateData) {
       realEstates.forEach((key) => {
@@ -189,6 +181,7 @@ export default {
         if (infoObject.bedrooms > bedroomCount.value) {
           bedroomCount.value = infoObject.bedrooms;
         }
+        if (infoObject.image == null || infoObject.image.length == 0) infoObject.image = "/../images/default_image.png";
         Buildings.value.push(infoObject);
       });
     }
@@ -201,7 +194,6 @@ export default {
         Buildings.value.sort((a, b) => (a[orderBy] > b[orderBy] ? -1 : 1));
       }
       ascending.value = !ascending.value;
-      console.log(Buildings.value);
     }
 
     function search() {
@@ -279,7 +271,8 @@ export default {
           priceMatch = false;
         }
         let searchMatch = true;
-        if (searchText.value.length > 0 && !address?.includes(searchText.value) && !link?.includes(searchText.value)) {
+        const searchTextSmall = searchText.value.toLowerCase();
+        if (searchTextSmall.length > 0 && !address?.toLowerCase().includes(searchTextSmall) && !link?.toLowerCase().includes(searchTextSmall)) {
           searchMatch = false;
         }
         if (bedroomMatch && priceMatch && searchMatch) {

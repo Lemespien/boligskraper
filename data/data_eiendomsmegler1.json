@@ -1,5 +1,4 @@
-{"placeholder_0": {}, 
-"Solliveien 44": {
+{"Solliveien 44": {
     "link": "https://www.eiendomsmegler1.no/boliger/8816523",
     "image": "https://images.eiendomsmegler1.no/E-NhkO2ty_bJoJglwAWnxMKV2Dk=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F22a7961d-af3f-421a-be25-f37c1157172e%2FImages%2F59c37a42-1069-464b-83d5-9797c2746445%2FOriginal",
     "building_type": "Leilighet",
@@ -8,32 +7,14 @@
     "address": "Solliveien 44",
     "asking_price": "1900000"
 }, 
-"Anton Gisle Johnsons vei 22 A": {
-    "link": "https://www.eiendomsmegler1.no/boliger/4514876",
-    "image": "https://images.eiendomsmegler1.no/_8GR2SRBaGR2DEQxSx8VqhkIh_s=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F0c2dcaf4-3735-46af-8627-679a877b132b%2FImages%2F98e1684c-8673-4406-9dc6-4e74635ff560%2FOriginal",
-    "building_type": "Tomannsbolig",
-    "primary_room_size": "128 m²",
-    "city": "BODØ",
-    "address": "Anton Gisle Johnsons vei 22 A",
-    "asking_price": "4700000"
-}, 
-"Myraveien 4 C": {
-    "link": "https://www.eiendomsmegler1.no/boliger/3164123",
-    "image": "https://images.eiendomsmegler1.no/WTcqWfHVP_j3zyOFnB58f74OT6Y=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F14e6906b-0cff-4092-953f-2d59c27d100e%2FImages%2F545c74ad-0ea7-44fe-aa04-84bb2b7667f3%2FOriginal",
-    "building_type": "Tomannsbolig",
-    "primary_room_size": "63 m²",
-    "city": "BODØ",
-    "address": "Myraveien 4 C",
-    "asking_price": "2990000"
-}, 
-"Hålogalandsgata 26 C": {
-    "link": "https://www.eiendomsmegler1.no/boliger/2460137",
-    "image": "https://images.eiendomsmegler1.no/Mz5YiD97r01VfQh6YuFt3o4O478=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F0d482042-22d6-4d56-af30-87badca1c40b%2FImages%2F8973a3d2-a8cf-4b78-aafe-d184b152c28e%2FOriginal",
+"Solliveien 40": {
+    "link": "https://www.eiendomsmegler1.no/boliger/8532893",
+    "image": "https://images.eiendomsmegler1.no/W41-pejJjuxzG7JaVNJfHsr0TIs=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F2ad1c9ae-3cb5-4a3a-8a84-6697a5226cc3%2FImages%2F79845152-ce52-47ec-a8e7-a095d0c4c532%2FOriginal",
     "building_type": "Leilighet",
-    "primary_room_size": "73 m²",
+    "primary_room_size": "50 m²",
     "city": "BODØ",
-    "address": "Hålogalandsgata 26 C",
-    "asking_price": "2090000"
+    "address": "Solliveien 40",
+    "asking_price": "1900000"
 }, 
 "Kongens gt 7 B": {
     "link": "https://www.eiendomsmegler1.no/boliger/2052509",
@@ -44,7 +25,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "11500000"
 }, 
-"Kongens gt 7 B_6": {
+"Kongens gt 7 B_0": {
     "link": "https://www.eiendomsmegler1.no/boliger/8492880",
     "image": "https://images.eiendomsmegler1.no/_S9nmICTfyYmEF8EvCOPDxcJ5w4=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F87ea94e9-618a-4878-a068-fe090f4d415c%2FImages%2Fe6864a4e-2077-4685-9adb-5d8925c4da3c%2FOriginal",
     "building_type": "Nybygg",
@@ -53,7 +34,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "10500000"
 }, 
-"Kongens gt 7 B_7": {
+"Kongens gt 7 B_1": {
     "link": "https://www.eiendomsmegler1.no/boliger/2203218",
     "image": "https://images.eiendomsmegler1.no/sl9pl3U8_ld-5PuFdUZqq3-jGnc=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F690faf97-e073-4696-9cf0-eceee9de2272%2FImages%2Fde5525df-44ad-4c7d-aa32-012b7306cd18%2FOriginal",
     "building_type": "Nybygg",
@@ -62,7 +43,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "4990000"
 }, 
-"Kongens gt 7 B_8": {
+"Kongens gt 7 B_2": {
     "link": "https://www.eiendomsmegler1.no/boliger/1108240",
     "image": "https://images.eiendomsmegler1.no/zo7UsB5XH3QFUeE0p63G2KVzrMY=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F866f7509-f9cf-412b-a52f-937f06ff9144%2FImages%2Fde1e274a-14e0-4638-9891-e307672a2ad9%2FOriginal",
     "building_type": "Nybygg",
@@ -71,7 +52,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2650000"
 }, 
-"Kongens gt 7 B_9": {
+"Kongens gt 7 B_3": {
     "link": "https://www.eiendomsmegler1.no/boliger/2800191",
     "image": "https://images.eiendomsmegler1.no/66iDalKZvVNHAF3euHO9dky4hjY=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fc09556bc-11c4-4ddf-b10c-e6b4d504885d%2FImages%2F1da7b848-d627-48ec-ab85-dbc47d1481d8%2FOriginal",
     "building_type": "Nybygg",
@@ -80,7 +61,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "3090000"
 }, 
-"Kongens gt 7 B_10": {
+"Kongens gt 7 B_4": {
     "link": "https://www.eiendomsmegler1.no/boliger/8594177",
     "image": "https://images.eiendomsmegler1.no/e3tsB9YSVzW_4bsxrPzR-xH9PXM=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F40f59b76-e7aa-45dd-bd78-6732d536a9d5%2FImages%2Fafe7a8f1-4903-4e45-856c-bad9e480e676%2FOriginal",
     "building_type": "Nybygg",
@@ -89,7 +70,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2590000"
 }, 
-"Kongens gt 7 B_11": {
+"Kongens gt 7 B_5": {
     "link": "https://www.eiendomsmegler1.no/boliger/9699701",
     "image": "https://images.eiendomsmegler1.no/vha5LkHJkhyo5LbBaafty6Fqagk=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F29253339-ffdf-4182-9a25-c614c3d5bd95%2FImages%2Fbd01a7a8-67e1-4b9e-9adb-c89a016f4ea2%2FOriginal",
     "building_type": "Nybygg",
@@ -98,7 +79,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "4490000"
 }, 
-"Kongens gt 7 B_12": {
+"Kongens gt 7 B_6": {
     "link": "https://www.eiendomsmegler1.no/boliger/1875029",
     "image": "https://images.eiendomsmegler1.no/CbeN2DVTPsUNuhtdIBvSKQAtBGk=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fcadbcdee-9aea-411b-bbd5-b73a761650fc%2FImages%2F1888b293-4ce2-4fef-8bc7-f58ff5ac8d85%2FOriginal",
     "building_type": "Nybygg",
@@ -107,7 +88,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "5290000"
 }, 
-"Kongens gt 7 B_13": {
+"Kongens gt 7 B_7": {
     "link": "https://www.eiendomsmegler1.no/boliger/6077703",
     "image": "https://images.eiendomsmegler1.no/VNXFZEsW4pSf3x-vbRQMzpgyicA=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Ff97c9229-57bb-461d-a301-b6d7dad5c959%2FImages%2F78ed3d0b-d172-4053-ae44-93f351bb7400%2FOriginal",
     "building_type": "Nybygg",
@@ -116,7 +97,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "6990000"
 }, 
-"Kongens gt 7 B_14": {
+"Kongens gt 7 B_8": {
     "link": "https://www.eiendomsmegler1.no/boliger/5179611",
     "image": "https://images.eiendomsmegler1.no/_j2Eo8nD23AO_NT-rqIH6OdVFLA=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F3b6efdab-5462-4baa-b675-64a4e5865a53%2FImages%2F865bcd22-a457-4442-99ae-efb6a0f3698f%2FOriginal",
     "building_type": "Nybygg",
@@ -125,7 +106,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2790000"
 }, 
-"Kongens gt 7 B_15": {
+"Kongens gt 7 B_9": {
     "link": "https://www.eiendomsmegler1.no/boliger/1155707",
     "image": "https://images.eiendomsmegler1.no/PSNCZ4LtYd9dIRstKfz3elVTi2g=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fc0c07c93-f8a5-408f-a0e5-494282a9dc8e%2FImages%2Ff5665f0e-a100-4c2c-a615-53bfc1bcff9a%2FOriginal",
     "building_type": "Nybygg",
@@ -134,7 +115,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "6190000"
 }, 
-"Kongens gt 7 B_16": {
+"Kongens gt 7 B_10": {
     "link": "https://www.eiendomsmegler1.no/boliger/6137565",
     "image": "https://images.eiendomsmegler1.no/1wIpC-qDESOGsTt5b4ulptF1uSw=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fea3faf3d-5317-4d29-b6fd-fbe224cd67c2%2FImages%2Fe75be5a6-9b3c-4667-9d5f-caf49ad972c8%2FOriginal",
     "building_type": "Nybygg",
@@ -152,7 +133,7 @@
     "address": "Kongens gt 7 A",
     "asking_price": "7690000"
 }, 
-"Kongens gt 7 A_18": {
+"Kongens gt 7 A_11": {
     "link": "https://www.eiendomsmegler1.no/boliger/6288289",
     "image": "https://images.eiendomsmegler1.no/cxuNOqbaz4Yw6SThj02NF7OGHHA=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fba7965b5-e583-4394-80f0-d34c15e32bf6%2FImages%2F4a6b5bf9-d5e6-4be5-ba2d-0214cb12c5b3%2FOriginal",
     "building_type": "Nybygg",
@@ -161,7 +142,7 @@
     "address": "Kongens gt 7 A",
     "asking_price": "7990000"
 }, 
-"Kongens gt 7 B_19": {
+"Kongens gt 7 B_12": {
     "link": "https://www.eiendomsmegler1.no/boliger/3466982",
     "image": "https://images.eiendomsmegler1.no/OHYNHzUm1qCqdPTKbfcxbYzMd3A=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F473ed52b-efe4-48dc-a569-2153c0ab8e7d%2FImages%2Fc1579ae9-fe3f-4335-8f17-a22896954013%2FOriginal",
     "building_type": "Nybygg",
@@ -170,7 +151,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2750000"
 }, 
-"Kongens gt 7 B_20": {
+"Kongens gt 7 B_13": {
     "link": "https://www.eiendomsmegler1.no/boliger/2857722",
     "image": "https://images.eiendomsmegler1.no/z7P0Z9plXndISHBgioHkrbGSvFw=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F4c7cd622-b019-40ce-874e-ce654083aee4%2FImages%2Ff0e92fb4-ddd9-41a2-a679-a7078fa2e56d%2FOriginal",
     "building_type": "Nybygg",
@@ -179,7 +160,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2790000"
 }, 
-"Kongens gt 7 B_21": {
+"Kongens gt 7 B_14": {
     "link": "https://www.eiendomsmegler1.no/boliger/6969613",
     "image": "https://images.eiendomsmegler1.no/nFmetKDkHEhmwl8rtlYqO6NSi0k=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F33b489e6-42fa-4f97-86ae-3241065d2b98%2FImages%2Fa6aeec18-3444-4d17-9664-beff839dc145%2FOriginal",
     "building_type": "Nybygg",
@@ -188,7 +169,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2770000"
 }, 
-"Kongens gt 7 B_22": {
+"Kongens gt 7 B_15": {
     "link": "https://www.eiendomsmegler1.no/boliger/6414372",
     "image": "https://images.eiendomsmegler1.no/6AWv5A9RceeyZDOSo9WLjgXAj3o=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F51198cc9-fea7-4e71-b744-9b23fc70cfe0%2FImages%2F2b1b7f52-a1e1-4979-be52-2fa2c76af42e%2FOriginal",
     "building_type": "Nybygg",
@@ -197,7 +178,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "4290000"
 }, 
-"Kongens gt 7 A_23": {
+"Kongens gt 7 A_16": {
     "link": "https://www.eiendomsmegler1.no/boliger/8884803",
     "image": "https://images.eiendomsmegler1.no/mPlV0CX5J_UROVlZHLPYGzeyWY0=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F7d2391e1-4b52-4e45-b65f-7e1148f3226c%2FImages%2Fb972bdec-6da0-4089-9d33-b16607b25c57%2FOriginal",
     "building_type": "Nybygg",
@@ -206,7 +187,7 @@
     "address": "Kongens gt 7 A",
     "asking_price": "3790000"
 }, 
-"Kongens gt 7 A_24": {
+"Kongens gt 7 A_17": {
     "link": "https://www.eiendomsmegler1.no/boliger/2411159",
     "image": "https://images.eiendomsmegler1.no/AwEdxV_JED9hN3282Aij9-UJAyE=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F9b5a2e14-cc8c-4a80-9610-e9688b721d05%2FImages%2F581be498-fcc4-4715-b128-793a2b5c2abc%2FOriginal",
     "building_type": "Nybygg",
@@ -215,7 +196,7 @@
     "address": "Kongens gt 7 A",
     "asking_price": "5150000"
 }, 
-"Kongens gt 7 A_25": {
+"Kongens gt 7 A_18": {
     "link": "https://www.eiendomsmegler1.no/boliger/1016952",
     "image": "https://images.eiendomsmegler1.no/ScxLkf6hN3wuEDlGDNQ2Llasapg=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F330e92f3-ac3c-424a-acc2-0cfd3ae46fa7%2FImages%2Fc93a42f2-4f48-4844-afbe-0bd5cf4edc08%2FOriginal",
     "building_type": "Nybygg",
@@ -224,7 +205,7 @@
     "address": "Kongens gt 7 A",
     "asking_price": "4290000"
 }, 
-"Kongens gt 7 A_26": {
+"Kongens gt 7 A_19": {
     "link": "https://www.eiendomsmegler1.no/boliger/7955759",
     "image": "https://images.eiendomsmegler1.no/amh4rsco8U8vbhIuF2EVoj_HKSc=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F74b5a849-6e02-4104-b70e-46be64221d98%2FImages%2Fb52825dc-efbd-4d4f-98de-8206c60f0f39%2FOriginal",
     "building_type": "Nybygg",
@@ -233,7 +214,7 @@
     "address": "Kongens gt 7 A",
     "asking_price": "6590000"
 }, 
-"Kongens gt 7 B_27": {
+"Kongens gt 7 B_20": {
     "link": "https://www.eiendomsmegler1.no/boliger/9423868",
     "image": "https://images.eiendomsmegler1.no/_rHxIL-iCfbITxld0tXj690vJcQ=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fafa3705b-dd24-46e9-848f-4fc04161dfaa%2FImages%2Fc02ae965-1ea6-4335-a01f-ae4b0ea24952%2FOriginal",
     "building_type": "Nybygg",
@@ -242,7 +223,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2720000"
 }, 
-"Kongens gt 7 B_28": {
+"Kongens gt 7 B_21": {
     "link": "https://www.eiendomsmegler1.no/boliger/7657972",
     "image": "https://images.eiendomsmegler1.no/axBiRxZDv3hnVPpnNEtQGDDsXwM=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F024c8fc1-147f-441c-bf93-f7445953c08a%2FImages%2Fe65a9cca-afed-4648-852d-41cb0dc5603e%2FOriginal",
     "building_type": "Nybygg",
@@ -251,7 +232,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2770000"
 }, 
-"Kongens gt 7 B_29": {
+"Kongens gt 7 B_22": {
     "link": "https://www.eiendomsmegler1.no/boliger/9698912",
     "image": "https://images.eiendomsmegler1.no/0BOa58NAkWlxttCOMk1DEVypNoA=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F17b6c51e-c223-42ce-af09-283d231c1b8c%2FImages%2F5a528095-0fbd-49a3-be1a-efb9f52a7d42%2FOriginal",
     "building_type": "Nybygg",
@@ -260,7 +241,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2750000"
 }, 
-"Kongens gt 7 B_30": {
+"Kongens gt 7 B_23": {
     "link": "https://www.eiendomsmegler1.no/boliger/5818639",
     "image": "https://images.eiendomsmegler1.no/6LPC_p14aH0ePsBThGhBDvJkmmU=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F46f8b398-0012-466f-8a3e-f3637d6eb425%2FImages%2F61f85a5f-e5bf-42c6-a4cd-1e51ff523bce%2FOriginal",
     "building_type": "Nybygg",
@@ -269,7 +250,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "4190000"
 }, 
-"Kongens gt 7 A_31": {
+"Kongens gt 7 A_24": {
     "link": "https://www.eiendomsmegler1.no/boliger/2708137",
     "image": "https://images.eiendomsmegler1.no/7YXax6JkS8tJOLNJUxxWJLsZmgY=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F919d9f20-208c-47e3-aaa5-2972e509210a%2FImages%2Ff410c651-db6a-4a0e-ad07-9584dfc3d60f%2FOriginal",
     "building_type": "Nybygg",
@@ -278,7 +259,7 @@
     "address": "Kongens gt 7 A",
     "asking_price": "4990000"
 }, 
-"Kongens gt 7 A_32": {
+"Kongens gt 7 A_25": {
     "link": "https://www.eiendomsmegler1.no/boliger/0624728",
     "image": "https://images.eiendomsmegler1.no/j_EnEzFFZhhYzs-iBvGVjLejwhE=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F18ec6002-7356-4068-b3f2-fd64fc4501c9%2FImages%2F29382597-de13-4dd5-9725-6334adf5caca%2FOriginal",
     "building_type": "Nybygg",
@@ -287,7 +268,7 @@
     "address": "Kongens gt 7 A",
     "asking_price": "4170000"
 }, 
-"Kongens gt 7 A_33": {
+"Kongens gt 7 A_26": {
     "link": "https://www.eiendomsmegler1.no/boliger/1622571",
     "image": "https://images.eiendomsmegler1.no/ZygYz6t0wO0dpaQ-SGZUI5VK8sM=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F40143d54-74dd-4093-9b20-e7d4c24363a1%2FImages%2F58f8b3e4-d481-405f-9487-7ffb20835542%2FOriginal",
     "building_type": "Nybygg",
@@ -296,7 +277,7 @@
     "address": "Kongens gt 7 A",
     "asking_price": "6470000"
 }, 
-"Kongens gt 7 B_34": {
+"Kongens gt 7 B_27": {
     "link": "https://www.eiendomsmegler1.no/boliger/4943434",
     "image": "https://images.eiendomsmegler1.no/LS4-iQCPws7xUBjZTDJs5nvj_wU=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F95fe9f80-131c-4d3a-b2c6-2e34bc10400b%2FImages%2Fe9d9ccde-0fbe-466b-ab10-9f2b3f34a0f4%2FOriginal",
     "building_type": "Nybygg",
@@ -305,7 +286,7 @@
     "address": "Kongens gt 7 B",
     "asking_price": "2690000"
 }, 
-"Kongens gt 7 B_35": {
+"Kongens gt 7 B_28": {
     "link": "https://www.eiendomsmegler1.no/boliger/0102339",
     "image": "https://images.eiendomsmegler1.no/u3dSx4TS6l0CXwcmp328PJeEx6E=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F6d7b0bf8-4e4d-4cf8-a7f8-1c7ce87801b8%2FImages%2F92cf7e73-3479-45a0-9d8a-d73cf6a4573a%2FOriginal",
     "building_type": "Nybygg",
@@ -332,7 +313,7 @@
     "address": "Hammarn 6",
     "asking_price": "6940000"
 }, 
-"Hammarn 6_38": {
+"Hammarn 6_29": {
     "link": "https://www.eiendomsmegler1.no/boliger/2226663",
     "image": "https://images.eiendomsmegler1.no/TI3k_PdfvhK1qehcBdKcIlsisxY=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Ffe58c648-8f6f-4600-bb44-726261e5b887%2FImages%2F5c56874e-9611-4492-b002-346dfd346abe%2FOriginal",
     "building_type": "Nybygg",
@@ -341,8 +322,7 @@
     "address": "Hammarn 6",
     "asking_price": "6940000"
 }, 
-"placeholder_39": {}, 
-"Hammarn 6_40": {
+"Hammarn 6_30": {
     "link": "https://www.eiendomsmegler1.no/boliger/2057862",
     "image": "https://images.eiendomsmegler1.no/w6Dzt1eXLIkVWcMrU5Q16P3NoK0=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fe6279190-a982-425b-8dfe-89e6ec60059e%2FImages%2F6ca25282-da8e-4c69-a841-480cec3bf640%2FOriginal",
     "building_type": "Nybygg",
@@ -351,7 +331,7 @@
     "address": "Hammarn 6",
     "asking_price": "8940000"
 }, 
-"Hammarn 6_41": {
+"Hammarn 6_31": {
     "link": "https://www.eiendomsmegler1.no/boliger/1768540",
     "image": "https://images.eiendomsmegler1.no/IzwmeQkLgT9HGnzUnh6ExyGvSgY=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F7163c60f-0791-4a50-b615-8cf02e8a785d%2FImages%2Fa51317fe-18ef-4a63-8f78-83d6e5115f3e%2FOriginal",
     "building_type": "Nybygg",
@@ -360,7 +340,7 @@
     "address": "Hammarn 6",
     "asking_price": "6040000"
 }, 
-"Hammarn 6_42": {
+"Hammarn 6_32": {
     "link": "https://www.eiendomsmegler1.no/boliger/8937674",
     "image": "https://images.eiendomsmegler1.no/REOr0mV2t6PwUDjmkDrc8_eQxsE=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F0d2d3122-ce08-4607-9901-eb2d8e4eb6c4%2FImages%2Fa1811ceb-902c-40a1-bd3e-93e16e4d19ff%2FOriginal",
     "building_type": "Nybygg",
@@ -369,7 +349,7 @@
     "address": "Hammarn 6",
     "asking_price": "4180000"
 }, 
-"Hammarn 6_43": {
+"Hammarn 6_33": {
     "link": "https://www.eiendomsmegler1.no/boliger/5306004",
     "image": "https://images.eiendomsmegler1.no/KffeqKbtIt4MnjBjIRMLiV-E0xo=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fc5deaf15-1a22-43c3-b3b6-a796da55587e%2FImages%2Fb3aa368d-ea88-4bb2-ae78-067542650718%2FOriginal",
     "building_type": "Nybygg",
@@ -378,7 +358,7 @@
     "address": "Hammarn 6",
     "asking_price": "4180000"
 }, 
-"Hammarn 6_44": {
+"Hammarn 6_34": {
     "link": "https://www.eiendomsmegler1.no/boliger/2459182",
     "image": "https://images.eiendomsmegler1.no/rGihQDpx__wAUkFhbpNZmmL5gKo=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F82d08c44-a1ea-4457-9532-236e6cfc1ae9%2FImages%2F17a3e135-f810-4dd0-9625-428a4fd2e2d1%2FOriginal",
     "building_type": "Nybygg",
@@ -387,7 +367,7 @@
     "address": "Hammarn 6",
     "asking_price": "4240000"
 }, 
-"Hammarn 6_45": {
+"Hammarn 6_35": {
     "link": "https://www.eiendomsmegler1.no/boliger/1994167",
     "image": "https://images.eiendomsmegler1.no/7Okq-oc1RuSP-deu0hm-DWu3cGw=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fd3a87992-7cbe-4082-b314-461056e6c630%2FImages%2F37053ee5-05e6-4f20-959c-64c91b626240%2FOriginal",
     "building_type": "Nybygg",
@@ -396,7 +376,7 @@
     "address": "Hammarn 6",
     "asking_price": "4380000"
 }, 
-"Hammarn 6_46": {
+"Hammarn 6_36": {
     "link": "https://www.eiendomsmegler1.no/boliger/5770118",
     "image": "https://images.eiendomsmegler1.no/Wdxoxjwjq-9IW104cX91c3i10B0=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F32b7d6cc-63f9-4aa8-9e03-fda53a8e7658%2FImages%2F9cc1dd7b-9e86-48ad-933d-6bec44a8cd61%2FOriginal",
     "building_type": "Nybygg",
@@ -405,7 +385,7 @@
     "address": "Hammarn 6",
     "asking_price": "6780000"
 }, 
-"Hammarn 6_47": {
+"Hammarn 6_37": {
     "link": "https://www.eiendomsmegler1.no/boliger/8864050",
     "image": "https://images.eiendomsmegler1.no/wk0K9_D3v91RlUWK9LHuv210wgk=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F68faae38-3cd7-4ded-bb91-5f2137bc7dc1%2FImages%2Ff0df1150-bc99-480c-940b-d7095024a51e%2FOriginal",
     "building_type": "Nybygg",
@@ -414,7 +394,7 @@
     "address": "Hammarn 6",
     "asking_price": "5840000"
 }, 
-"Hammarn 6_48": {
+"Hammarn 6_38": {
     "link": "https://www.eiendomsmegler1.no/boliger/1651147",
     "image": "https://images.eiendomsmegler1.no/necsnU5Zqc9g7kYNWPbKMl6_sFA=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F1a67e822-712b-4109-a23a-ed8646fd06e0%2FImages%2Fef9deae1-31a8-41bb-8ff3-092c7bd9fd4f%2FOriginal",
     "building_type": "Nybygg",
@@ -423,7 +403,7 @@
     "address": "Hammarn 6",
     "asking_price": "4080000"
 }, 
-"Hammarn 6_49": {
+"Hammarn 6_39": {
     "link": "https://www.eiendomsmegler1.no/boliger/8779622",
     "image": "https://images.eiendomsmegler1.no/ZyM48HSxVvc_0B-_WzSEWEiEfqk=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F2dd39dff-f760-4d67-8c69-2cdce4842118%2FImages%2Fc0793ad1-7f43-4804-b38a-c1efb26b83e9%2FOriginal",
     "building_type": "Nybygg",
@@ -432,7 +412,7 @@
     "address": "Hammarn 6",
     "asking_price": "4080000"
 }, 
-"Hammarn 6_50": {
+"Hammarn 6_40": {
     "link": "https://www.eiendomsmegler1.no/boliger/1409449",
     "image": "https://images.eiendomsmegler1.no/9mdPTfR1Zt29mxfpTYS6V0E3MEo=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fbfa9191f-cd98-4bd7-b67e-e74892ba639d%2FImages%2F0a545807-bf16-4f32-b676-d38ccde072d2%2FOriginal",
     "building_type": "Nybygg",
@@ -441,7 +421,7 @@
     "address": "Hammarn 6",
     "asking_price": "4140000"
 }, 
-"Hammarn 6_51": {
+"Hammarn 6_41": {
     "link": "https://www.eiendomsmegler1.no/boliger/8224515",
     "image": "https://images.eiendomsmegler1.no/mCAniz760XUyF8Gg7u_lNmyuf6E=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fa9bb38d5-72a3-41ba-845b-fcc73070b4ef%2FImages%2F018faa79-f2cd-40ac-8773-8e64a918c32a%2FOriginal",
     "building_type": "Nybygg",
@@ -450,7 +430,7 @@
     "address": "Hammarn 6",
     "asking_price": "4240000"
 }, 
-"Hammarn 6_52": {
+"Hammarn 6_42": {
     "link": "https://www.eiendomsmegler1.no/boliger/6643561",
     "image": "https://images.eiendomsmegler1.no/0Nzk8R7iqPja5S8BDad2B8oiYPI=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F0a02fa19-8e59-47eb-b4fe-22076312eb41%2FImages%2Fe6c72f50-68bd-4529-9ea2-a35f5af2ca7c%2FOriginal",
     "building_type": "Nybygg",
@@ -459,9 +439,7 @@
     "address": "Hammarn 6",
     "asking_price": "5740000"
 }, 
-"placeholder_53": {}, 
-"placeholder_54": {}, 
-"Hammarn 6_55": {
+"Hammarn 6_43": {
     "link": "https://www.eiendomsmegler1.no/boliger/9945138",
     "image": "https://images.eiendomsmegler1.no/t8xtv-r3obGGlycjgDNqYjkxVvY=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F68583236-3820-4094-a44b-b6435d61db5b%2FImages%2Fc1658b9f-354b-45fa-a46c-9ff1a1483f9e%2FOriginal",
     "building_type": "Nybygg",
@@ -470,7 +448,7 @@
     "address": "Hammarn 6",
     "asking_price": "4040000"
 }, 
-"Hammarn 6_56": {
+"Hammarn 6_44": {
     "link": "https://www.eiendomsmegler1.no/boliger/1094513",
     "image": "https://images.eiendomsmegler1.no/e0ii4YJvrE57ju-ScsD3lei0lzs=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F9bad28b4-3770-4dd5-8f8a-fd0ce778793a%2FImages%2F70732ea8-7f18-4273-900a-e2e538245820%2FOriginal",
     "building_type": "Nybygg",
@@ -479,7 +457,7 @@
     "address": "Hammarn 6",
     "asking_price": "4080000"
 }, 
-"Hammarn 6_57": {
+"Hammarn 6_45": {
     "link": "https://www.eiendomsmegler1.no/boliger/0381666",
     "image": "https://images.eiendomsmegler1.no/zWW3CHBiAX5Eym1qhAj0P6Dv_ts=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F9aa5f872-b180-41f1-baeb-98da75b97b43%2FImages%2F90fd616e-f19c-405e-8dbc-b3aa6b284598%2FOriginal",
     "building_type": "Nybygg",
@@ -488,7 +466,7 @@
     "address": "Hammarn 6",
     "asking_price": "5640000"
 }, 
-"Hammarn 6_58": {
+"Hammarn 6_46": {
     "link": "https://www.eiendomsmegler1.no/boliger/4571207",
     "image": "https://images.eiendomsmegler1.no/1G6wcWwN7SajIBo1GQku0OiQ13s=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F5a2ab30c-9e99-4910-bb46-de59238f143e%2FImages%2F47f0b88c-3889-4abf-993b-3132b882fe05%2FOriginal",
     "building_type": "Nybygg",
@@ -497,7 +475,7 @@
     "address": "Hammarn 6",
     "asking_price": "3780000"
 }, 
-"Hammarn 6_59": {
+"Hammarn 6_47": {
     "link": "https://www.eiendomsmegler1.no/boliger/8927919",
     "image": "https://images.eiendomsmegler1.no/JyIR1RMNnmx5SlsAnZrYEuRWlyc=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F53df5ea3-e239-4c08-86f3-e69460889dd4%2FImages%2Fc1aab03a-f62f-4f8b-ae3c-c1dee1a66984%2FOriginal",
     "building_type": "Nybygg",
@@ -506,7 +484,7 @@
     "address": "Hammarn 6",
     "asking_price": "3780000"
 }, 
-"Hammarn 6_60": {
+"Hammarn 6_48": {
     "link": "https://www.eiendomsmegler1.no/boliger/3585355",
     "image": "https://images.eiendomsmegler1.no/gcpvfwhgN_MTLU5mEU5F0x5ewxs=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F20d0e43f-ea98-4050-8253-a4bebd4c3d69%2FImages%2Ff1715d15-56e4-4e0c-a4b3-fdece4468f34%2FOriginal",
     "building_type": "Nybygg",
@@ -515,7 +493,7 @@
     "address": "Hammarn 6",
     "asking_price": "3940000"
 }, 
-"Hammarn 6_61": {
+"Hammarn 6_49": {
     "link": "https://www.eiendomsmegler1.no/boliger/4497725",
     "image": "https://images.eiendomsmegler1.no/Qa12QBCRO3NtdTY_kbWMncujdt8=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Faf13bd1b-5b9c-4aa1-aed8-95a2cf7f81ad%2FImages%2Fa138194a-bac9-4ee1-8930-02d757775ce6%2FOriginal",
     "building_type": "Nybygg",
@@ -524,7 +502,7 @@
     "address": "Hammarn 6",
     "asking_price": "3940000"
 }, 
-"Hammarn 6_62": {
+"Hammarn 6_50": {
     "link": "https://www.eiendomsmegler1.no/boliger/3031306",
     "image": "https://images.eiendomsmegler1.no/todPgHku619TJD-hAWlJj2Ih9II=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F6cfb0bc1-04d9-4541-b543-bee69f0056b2%2FImages%2Fde34e4ba-0b7f-4509-b10a-20cf119ad07d%2FOriginal",
     "building_type": "Nybygg",
@@ -533,7 +511,7 @@
     "address": "Hammarn 6",
     "asking_price": "6380000"
 }, 
-"Hammarn 6_63": {
+"Hammarn 6_51": {
     "link": "https://www.eiendomsmegler1.no/boliger/6106084",
     "image": "https://images.eiendomsmegler1.no/lyyw3d_HmkTh435rU7NZE-Unf1w=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fe08a1e59-bc69-4034-a970-a35f8cda7e47%2FImages%2F819d1516-2643-4343-8e71-ba4aad278e6d%2FOriginal",
     "building_type": "Nybygg",
@@ -542,8 +520,7 @@
     "address": "Hammarn 6",
     "asking_price": "5540000"
 }, 
-"placeholder_64": {}, 
-"Hammarn 6_65": {
+"Hammarn 6_52": {
     "link": "https://www.eiendomsmegler1.no/boliger/2758487",
     "image": "https://images.eiendomsmegler1.no/bvnUa_6T3y_hR_bgd3-ubt4oJc8=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fa05c35ab-cdd3-46d7-acdf-bc24fb61f98c%2FImages%2F3936efd8-cb94-469f-a6bf-1c692ca34ecd%2FOriginal",
     "building_type": "Nybygg",
@@ -552,7 +529,7 @@
     "address": "Hammarn 6",
     "asking_price": "3580000"
 }, 
-"Hammarn 6_66": {
+"Hammarn 6_53": {
     "link": "https://www.eiendomsmegler1.no/boliger/0514940",
     "image": "https://images.eiendomsmegler1.no/9S-ovNdaQsePXRu4SXnlOTyInQs=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fe8aca0cb-0cb0-4557-bdf0-fbea13635a62%2FImages%2F0800602c-5e4e-4a24-ae52-6d9e8499ef60%2FOriginal",
     "building_type": "Nybygg",
@@ -561,7 +538,7 @@
     "address": "Hammarn 6",
     "asking_price": "3780000"
 }, 
-"Hammarn 6_67": {
+"Hammarn 6_54": {
     "link": "https://www.eiendomsmegler1.no/boliger/6848962",
     "image": "https://images.eiendomsmegler1.no/LBTqyg8dNAd5eH315OCkbiO7vC0=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F65c88aa8-efa4-418c-93c2-abc09939da1b%2FImages%2Fcdcc61d2-1382-42aa-9ba2-a32594396681%2FOriginal",
     "building_type": "Nybygg",
@@ -570,7 +547,7 @@
     "address": "Hammarn 6",
     "asking_price": "6280000"
 }, 
-"Hammarn 6_68": {
+"Hammarn 6_55": {
     "link": "https://www.eiendomsmegler1.no/boliger/8550101",
     "image": "https://images.eiendomsmegler1.no/p20_z5jTXvST8_wVy7ah0E6NLpw=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fc28f1fb7-f8f3-4fe8-9f60-701392e28851%2FImages%2Fb9205bd8-15c9-4649-96f8-fb8ca98e477f%2FOriginal",
     "building_type": "Nybygg",
@@ -578,6 +555,96 @@
     "city": "BODØ",
     "address": "Hammarn 6",
     "asking_price": "3580000-8940000"
+}, 
+"Ole Tobias Olsens vei 30": {
+    "link": "https://www.eiendomsmegler1.no/boliger/9078087",
+    "image": "https://images.eiendomsmegler1.no/XWddnbHpI5-tZ7u3-xaVR-LnSIM=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fcc8067fb-eee8-4f56-85c7-531218f02025%2FImages%2F0098a381-f700-47d2-83d1-4efe693f4034%2FOriginal",
+    "building_type": "Enebolig",
+    "primary_room_size": "173 m²",
+    "city": "BODØ",
+    "address": "Ole Tobias Olsens vei 30",
+    "asking_price": "5190000"
+}, 
+"Storvollen 10": {
+    "link": "https://www.eiendomsmegler1.no/boliger/8408802",
+    "image": "https://images.eiendomsmegler1.no/b2eRYZZNixBR0z1dAnU9HmblO48=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fc2ac0947-c0c3-42f7-a230-eae9f2e96965%2FImages%2Fd91fca51-ee83-4a5b-98c1-44b071b065ef%2FOriginal",
+    "building_type": "Rekkehus",
+    "primary_room_size": "104 m²",
+    "city": "BODØ",
+    "address": "Storvollen 10",
+    "asking_price": "3190000"
+}, 
+"Sulitjelmaveien 5": {
+    "link": "https://www.eiendomsmegler1.no/boliger/4549985",
+    "image": "https://images.eiendomsmegler1.no/7FhfCU37C6Mxe497a1b0cO_LJtQ=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F98b9d0d0-f6c5-4937-b4d4-e09f91406110%2FImages%2Fd0bcc5b2-fb4f-4f00-b057-f35046e87a3f%2FOriginal",
+    "building_type": "Leilighet",
+    "primary_room_size": "82 m²",
+    "city": "BODØ",
+    "address": "Sulitjelmaveien 5",
+    "asking_price": "4190000"
+}, 
+"Kongsdatterveien 7": {
+    "link": "https://www.eiendomsmegler1.no/boliger/6514346",
+    "image": "https://images.eiendomsmegler1.no/oaOuk4Zs-w1Lj_6tHjvyrd_3fBg=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fbc3b0c76-823e-4227-becf-e80031e94d4f%2FImages%2F6fa9f1c4-e272-4e85-aec1-d2b6d949cd08%2FOriginal",
+    "building_type": "Enebolig",
+    "primary_room_size": "167 m²",
+    "city": "BODØ",
+    "address": "Kongsdatterveien 7",
+    "asking_price": "4690000"
+}, 
+"Hålogalandsgata 128": {
+    "link": "https://www.eiendomsmegler1.no/boliger/4048580",
+    "image": "https://images.eiendomsmegler1.no/b6CetznmcucBVqZL3FOhdg4v0kI=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fd3110631-748f-4919-8807-829a62257b5c%2FImages%2Ff1181238-f576-49aa-8064-519c2705f029%2FOriginal",
+    "building_type": "Leilighet",
+    "primary_room_size": "66 m²",
+    "city": "BODØ",
+    "address": "Hålogalandsgata 128",
+    "asking_price": "2090000"
+}, 
+"Reitmyrveien 38 B": {
+    "link": "https://www.eiendomsmegler1.no/boliger/5013062",
+    "image": "https://images.eiendomsmegler1.no/ub5podWVyVPpH8Kfb9s5bGKoPy8=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F16bd698e-97cc-4618-a5bf-3070459ee861%2FImages%2F5f7e8ba0-ab03-43a2-886d-cd89a6f72b26%2FOriginal",
+    "building_type": "Leilighet",
+    "primary_room_size": "89 m²",
+    "city": "BODØ",
+    "address": "Reitmyrveien 38 B",
+    "asking_price": "2900000"
+}, 
+"Kleggveien 12": {
+    "link": "https://www.eiendomsmegler1.no/boliger/1000301",
+    "image": "https://images.eiendomsmegler1.no/xby2caQMfu9luHWoQqkOXq-xC30=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Ff83cd915-d57c-4ae9-8242-e932b329b6cf%2FImages%2Fe29e83ae-b30d-4153-b2c6-a0282d8d0030%2FOriginal",
+    "building_type": "Enebolig",
+    "primary_room_size": "158 m²",
+    "city": "BODØ",
+    "address": "Kleggveien 12",
+    "asking_price": "5260000"
+}, 
+"Grønnåsen 68": {
+    "link": "https://www.eiendomsmegler1.no/boliger/7675297",
+    "image": "https://images.eiendomsmegler1.no/5aDVMUOzbtrBWolrD8_lGzI5o_U=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F728330dc-ab53-4e68-8c43-ffd4187ea6f0%2FImages%2Fb5853d4c-b2d6-4c73-be21-1782a68ba377%2FOriginal",
+    "building_type": "Leilighet",
+    "primary_room_size": "62 m²",
+    "city": "BODØ",
+    "address": "Grønnåsen 68",
+    "asking_price": "2990000"
+}, 
+"Hjartliveien 4 B": {
+    "link": "https://www.eiendomsmegler1.no/boliger/6575839",
+    "image": "https://images.eiendomsmegler1.no/u-oexc7Ns4yAkL8rfKslZ7kkO88=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F7a26da05-2286-4533-be75-329a2a7f68da%2FImages%2F3a1acc7f-b16d-4f81-a4df-f2731fa61fc5%2FOriginal",
+    "building_type": "Rekkehus",
+    "primary_room_size": "100 m²",
+    "city": "BODØ",
+    "address": "Hjartliveien 4 B",
+    "asking_price": "4330000"
+}, 
+"Hammarn 32": {
+    "link": "https://www.eiendomsmegler1.no/boliger/3361505",
+    "image": "https://images.eiendomsmegler1.no/vBLT2RN5csPnysQgouaKvv0bz7U=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F38c87f30-2133-4776-a481-cf2c158ad7cc%2FImages%2F9ec64d2b-c3bc-4392-add4-48e541b78ad1%2FOriginal",
+    "building_type": "Leilighet",
+    "primary_room_size": "82 m²",
+    "city": "BODØ",
+    "address": "Hammarn 32",
+    "asking_price": "5490000"
 }, 
 "Bjørndalstoppen 1": {
     "link": "https://www.eiendomsmegler1.no/boliger/7826668",
@@ -588,38 +655,15 @@
     "address": "Bjørndalstoppen 1",
     "asking_price": "6390000"
 }, 
-"Skivikveien 54": {
-    "link": "https://www.eiendomsmegler1.no/boliger/6477093",
-    "image": "https://images.eiendomsmegler1.no/UM9-hWTuS9gJv9Gb7l2D_vVmDg8=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fbe7dc616-e54a-4b2d-953e-0c39aef97813%2FImages%2Fe867f2af-98c3-432c-9ee7-e303e7953892%2FOriginal",
-    "building_type": "Enebolig",
-    "primary_room_size": "137 m²",
+"Anton Gisle Johnsons vei 22 A": {
+    "link": "https://www.eiendomsmegler1.no/boliger/4514876",
+    "image": "https://images.eiendomsmegler1.no/_8GR2SRBaGR2DEQxSx8VqhkIh_s=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F0c2dcaf4-3735-46af-8627-679a877b132b%2FImages%2F98e1684c-8673-4406-9dc6-4e74635ff560%2FOriginal",
+    "building_type": "Tomannsbolig",
+    "primary_room_size": "128 m²",
     "city": "BODØ",
-    "address": "Skivikveien 54",
-    "asking_price": "5090000"
+    "address": "Anton Gisle Johnsons vei 22 A",
+    "asking_price": "4700000"
 }, 
-"placeholder_71": {}, 
-"Hammarn 32": {
-    "link": "https://www.eiendomsmegler1.no/boliger/3361505",
-    "image": "https://images.eiendomsmegler1.no/vBLT2RN5csPnysQgouaKvv0bz7U=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F38c87f30-2133-4776-a481-cf2c158ad7cc%2FImages%2F9ec64d2b-c3bc-4392-add4-48e541b78ad1%2FOriginal",
-    "building_type": "Leilighet",
-    "primary_room_size": "82 m²",
-    "city": "BODØ",
-    "address": "Hammarn 32",
-    "asking_price": "5490000"
-}, 
-"placeholder_73": {}, 
-"placeholder_74": {}, 
-"Trollbjørnveien 10": {
-    "link": "https://www.eiendomsmegler1.no/boliger/0998973",
-    "image": "https://images.eiendomsmegler1.no/pFeWfnLRm-Qb2xVUlsus93dZDpE=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fb8c11e6d-f3f3-4a79-9b0c-fc31085cebc1%2FImages%2F171564a1-3d64-427d-b103-e3744b017984%2FOriginal",
-    "building_type": "Enebolig",
-    "primary_room_size": "241 m²",
-    "city": "BODØ",
-    "address": "Trollbjørnveien 10",
-    "asking_price": "7290000"
-}, 
-"placeholder_76": {}, 
-"placeholder_77": {}, 
 "Ankerveien 21": {
     "link": "https://www.eiendomsmegler1.no/boliger/2288226",
     "image": "https://images.eiendomsmegler1.no/awIiM2kINZKdxXKdvODfTXopagA=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F58ddf822-0dc8-4ef5-8622-ae3e38a1a49c%2FImages%2F2f5ac874-0589-4fe5-bcb3-f7a20de2b1d3%2FOriginal",
@@ -629,17 +673,7 @@
     "address": "Ankerveien 21",
     "asking_price": "2950000"
 }, 
-"placeholder_79": {}, 
-"Martha Støvers vei 64": {
-    "link": "https://www.eiendomsmegler1.no/boliger/1679780",
-    "image": "https://images.eiendomsmegler1.no/SgkIA1QMm1mz-DTra-hdm88gNMU=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F6841b937-966f-4cce-9684-a20c6348b223%2FImages%2Ffd575f85-b6cb-44ba-9f31-0ec0db61534d%2FOriginal",
-    "building_type": "Leilighet",
-    "primary_room_size": "38 m²",
-    "city": "BODØ",
-    "address": "Martha Støvers vei 64",
-    "asking_price": "2350000"
-}, 
-"Hammarn 32_81": {
+"Hammarn 32_56": {
     "link": "https://www.eiendomsmegler1.no/boliger/3246920",
     "image": "https://images.eiendomsmegler1.no/TW7Ng1NLhLeK203XTo-fYmm3A9E=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F4f0c2757-04b3-42e7-a740-e2a8cce32d69%2FImages%2F9454cc46-11a2-4599-a312-f08d2024d539%2FOriginal",
     "building_type": "Leilighet",
@@ -647,15 +681,6 @@
     "city": "BODØ",
     "address": "Hammarn 32",
     "asking_price": "14900000"
-}, 
-"Dronningens gate 7 B": {
-    "link": "https://www.eiendomsmegler1.no/boliger/3978964",
-    "image": "https://images.eiendomsmegler1.no/hm7Er3rw5U7viceBZo10hRTUiVI=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F1092e5fb-f7a5-4c86-9937-ce90ce3af179%2FImages%2F2e8dc1cd-41db-4249-b5a9-a9f382cb1de3%2FOriginal",
-    "building_type": "Leilighet",
-    "primary_room_size": "138 m²",
-    "city": "BODØ",
-    "address": "Dronningens gate 7 B",
-    "asking_price": "13190000"
 }, 
 "Gildeskålveien 17": {
     "link": "https://www.eiendomsmegler1.no/boliger/6480000",
@@ -747,7 +772,7 @@
     "address": "Tollbugata 11",
     "asking_price": "3175500"
 }, 
-"Tollbugata 11_93": {
+"Tollbugata 11_57": {
     "link": "https://www.eiendomsmegler1.no/boliger/1005164",
     "image": "https://images.eiendomsmegler1.no/PC7ALuG_jHYTdpQbSjZY5bCemOs=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F2cb466f2-73ec-4a38-97b5-21619ae32bd3%2FImages%2Fa7318b1e-cbe0-4a5c-ae3d-2aa214e0f231%2FOriginal",
     "building_type": "Nybygg",
@@ -756,7 +781,7 @@
     "address": "Tollbugata 11",
     "asking_price": "3401250"
 }, 
-"Tollbugata 11_94": {
+"Tollbugata 11_58": {
     "link": "https://www.eiendomsmegler1.no/boliger/1071062",
     "image": "https://images.eiendomsmegler1.no/dRfIC8Djn6W6xY18tcP2qlOGrNc=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F27906066-70c6-42cb-abdd-f768c12e7e69%2FImages%2Fa1aaa607-2cc5-48a2-858a-13c66ffdcc2a%2FOriginal",
     "building_type": "Nybygg",
@@ -765,7 +790,7 @@
     "address": "Tollbugata 11",
     "asking_price": "5207250"
 }, 
-"Tollbugata 11_95": {
+"Tollbugata 11_59": {
     "link": "https://www.eiendomsmegler1.no/boliger/2468840",
     "image": "https://images.eiendomsmegler1.no/LPCwF-NMFNkluFMRghLlkYaj3A8=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F2e78cdfd-cd55-4a50-bbf0-4af7154fce58%2FImages%2Fc281443b-4e97-458d-90b2-c773ba811a86%2FOriginal",
     "building_type": "Nybygg",
@@ -774,7 +799,7 @@
     "address": "Tollbugata 11",
     "asking_price": "5545875"
 }, 
-"Tollbugata 11_96": {
+"Tollbugata 11_60": {
     "link": "https://www.eiendomsmegler1.no/boliger/3964755",
     "image": "https://images.eiendomsmegler1.no/y9rECV_bjbxDKkj1PXURYSSoc1Q=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fa9e5190b-e3b1-4cda-a385-7f7b9faaf2dd%2FImages%2F84629118-7b97-49b2-b123-6a7e3b84d36b%2FOriginal",
     "building_type": "Nybygg",
@@ -783,7 +808,7 @@
     "address": "Tollbugata 11",
     "asking_price": "5094375"
 }, 
-"Tollbugata 11_97": {
+"Tollbugata 11_61": {
     "link": "https://www.eiendomsmegler1.no/boliger/3358865",
     "image": "https://images.eiendomsmegler1.no/fjUZXlixeNbxEi46QYvZiDjbOUA=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F0bdee984-417c-4d3b-8f95-0939c6cdcd3a%2FImages%2F65e56aeb-2f95-4d4c-afa5-e026a71b6fad%2FOriginal",
     "building_type": "Nybygg",
@@ -792,7 +817,7 @@
     "address": "Tollbugata 11",
     "asking_price": "3062625"
 }, 
-"Tollbugata 11_98": {
+"Tollbugata 11_62": {
     "link": "https://www.eiendomsmegler1.no/boliger/2115949",
     "image": "https://images.eiendomsmegler1.no/IBDg7yLKoPkj1HHp-Ppvpan-czI=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F9cd96f5d-1507-48f8-94d3-2f87a18fc488%2FImages%2F208c6aa5-cefc-4ba3-a05d-36b208cf0451%2FOriginal",
     "building_type": "Nybygg",
@@ -801,7 +826,7 @@
     "address": "Tollbugata 11",
     "asking_price": "3288375"
 }, 
-"Tollbugata 11_99": {
+"Tollbugata 11_63": {
     "link": "https://www.eiendomsmegler1.no/boliger/0105029",
     "image": "https://images.eiendomsmegler1.no/L1IZjyruOJzK6be3WGxxyt6Ho-c=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F34098fac-3451-4819-bb89-a0272af1cc09%2FImages%2F00006a9a-e96c-4f2b-bbf3-afb0d874ac9c%2FOriginal",
     "building_type": "Nybygg",
@@ -810,7 +835,7 @@
     "address": "Tollbugata 11",
     "asking_price": "4981500"
 }, 
-"Tollbugata 11_100": {
+"Tollbugata 11_64": {
     "link": "https://www.eiendomsmegler1.no/boliger/6621563",
     "image": "https://images.eiendomsmegler1.no/sXA7UsNvOnuOVqXV-_CEHmd2g5M=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Ffb64f9f1-4841-447d-a4b9-4d8f606d42e5%2FImages%2Fd16fc2af-5285-4c67-8434-2f3d25774bdc%2FOriginal",
     "building_type": "Nybygg",
@@ -819,7 +844,7 @@
     "address": "Tollbugata 11",
     "asking_price": "5320125"
 }, 
-"Tollbugata 11_101": {
+"Tollbugata 11_65": {
     "link": "https://www.eiendomsmegler1.no/boliger/4864336",
     "image": "https://images.eiendomsmegler1.no/5AEQGVEhr2X4HdogK8BghCNaWW4=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F9cdd3f7c-f644-4a39-ad81-5643c9e2e86e%2FImages%2F4e9709ae-dfe2-4a5c-96a3-6736a357df8e%2FOriginal",
     "building_type": "Nybygg",
@@ -828,7 +853,7 @@
     "address": "Tollbugata 11",
     "asking_price": "3965625"
 }, 
-"Tollbugata 11_102": {
+"Tollbugata 11_66": {
     "link": "https://www.eiendomsmegler1.no/boliger/4111278",
     "image": "https://images.eiendomsmegler1.no/84IRVMwavbQGdbjJIlRyedOCicg=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fa7d657cb-6ac5-4985-a4f2-528d8aa55833%2FImages%2Febaac425-3f19-4f65-802f-3c740947965c%2FOriginal",
     "building_type": "Nybygg",
@@ -837,7 +862,7 @@
     "address": "Tollbugata 11",
     "asking_price": "4981500"
 }, 
-"Tollbugata 11_103": {
+"Tollbugata 11_67": {
     "link": "https://www.eiendomsmegler1.no/boliger/1755383",
     "image": "https://images.eiendomsmegler1.no/tvXjP-zA4-_aAlDQxWClBmzU7_c=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F2e29fee6-41d9-45cd-ac2a-723d8acbddd5%2FImages%2F4c861873-6497-44ec-982b-363fe5f74c2c%2FOriginal",
     "building_type": "Nybygg",
@@ -846,7 +871,7 @@
     "address": "Tollbugata 11",
     "asking_price": "2949750"
 }, 
-"Tollbugata 11_104": {
+"Tollbugata 11_68": {
     "link": "https://www.eiendomsmegler1.no/boliger/0021170",
     "image": "https://images.eiendomsmegler1.no/KJXt318ZbYA9cVrqMxw1Fwxg6jw=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F73a29979-84fb-4b5f-a62d-e1ae7cb58c78%2FImages%2Fbbbed806-2eea-4817-a7d5-ef84951d3b68%2FOriginal",
     "building_type": "Nybygg",
@@ -855,7 +880,7 @@
     "address": "Tollbugata 11",
     "asking_price": "4755750"
 }, 
-"Tollbugata 11_105": {
+"Tollbugata 11_69": {
     "link": "https://www.eiendomsmegler1.no/boliger/8628255",
     "image": "https://images.eiendomsmegler1.no/xlzEGkReZgT352A-3ibfzevOWsA=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F46972175-b7fc-462e-9e10-32aad301057e%2FImages%2F77b4fac0-7876-4a6e-82c1-607d8f36eb36%2FOriginal",
     "building_type": "Nybygg",
@@ -864,7 +889,7 @@
     "address": "Tollbugata 11",
     "asking_price": "5207250"
 }, 
-"Tollbugata 11_106": {
+"Tollbugata 11_70": {
     "link": "https://www.eiendomsmegler1.no/boliger/2045536",
     "image": "https://images.eiendomsmegler1.no/kcOZy4Wz1oapR1IZ__giA4VYJQk=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F6adb8e0c-b83c-4f82-9b99-7bcf08187938%2FImages%2F9360075d-64d5-4cce-9268-c294cdf673df%2FOriginal",
     "building_type": "Nybygg",
@@ -873,7 +898,7 @@
     "address": "Tollbugata 11",
     "asking_price": "4755750"
 }, 
-"Tollbugata 11_107": {
+"Tollbugata 11_71": {
     "link": "https://www.eiendomsmegler1.no/boliger/6535954",
     "image": "https://images.eiendomsmegler1.no/dmuhEBOkqviTg_avtm0UT8edcTE=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F50dc58b9-8a70-4939-b53f-a8f48fbebb74%2FImages%2Ff82a7957-b7c1-4b7a-806d-b83218eaef9d%2FOriginal",
     "building_type": "Nybygg",
@@ -882,7 +907,7 @@
     "address": "Tollbugata 11",
     "asking_price": "4530000"
 }, 
-"Tollbugata 11_108": {
+"Tollbugata 11_72": {
     "link": "https://www.eiendomsmegler1.no/boliger/5741264",
     "image": "https://images.eiendomsmegler1.no/mPiSFENQpzPoK5ndUlnSjq2ETmk=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F4df808e1-3b06-404e-b060-1a68d05b81cf%2FImages%2F682957e7-0acb-41e3-806f-96d7b200a078%2FOriginal",
     "building_type": "Nybygg",
@@ -891,7 +916,7 @@
     "address": "Tollbugata 11",
     "asking_price": "4868625"
 }, 
-"Tollbugata 11_109": {
+"Tollbugata 11_73": {
     "link": "https://www.eiendomsmegler1.no/boliger/2604770",
     "image": "https://images.eiendomsmegler1.no/CUjSuHO-hN4EFvAnfNrAfNs3dsE=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fc1828a58-1cb1-42ec-ab8e-9a0a398f99ff%2FImages%2F6d7b604b-156e-478a-8608-db189989ef07%2FOriginal",
     "building_type": "Nybygg",
@@ -900,7 +925,7 @@
     "address": "Tollbugata 11",
     "asking_price": "4530000"
 }, 
-"Tollbugata 11_110": {
+"Tollbugata 11_74": {
     "link": "https://www.eiendomsmegler1.no/boliger/2782758",
     "image": "https://images.eiendomsmegler1.no/Fn29DRH2rXOARcBhHU8K_Y7pbJY=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F0693c274-decd-4002-bdf1-47169fe95a79%2FImages%2Fb60ab3f7-9236-45b6-866c-92926544af56%2FOriginal",
     "building_type": "Nybygg",
@@ -909,7 +934,7 @@
     "address": "Tollbugata 11",
     "asking_price": "4642875"
 }, 
-"Tollbugata 11_111": {
+"Tollbugata 11_75": {
     "link": "https://www.eiendomsmegler1.no/boliger/5310075",
     "image": "https://images.eiendomsmegler1.no/9Mj5vGV7ehKvXmNLoepDd4d2fRM=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Ffbab4162-5a83-47a2-a165-05721fe9555f%2FImages%2Fc43b5cc0-afdc-4026-b982-58dc4961a1b2%2FOriginal",
     "building_type": "Nybygg",
@@ -918,7 +943,7 @@
     "address": "Tollbugata 11",
     "asking_price": "5433000"
 }, 
-"Tollbugata 11_112": {
+"Tollbugata 11_76": {
     "link": "https://www.eiendomsmegler1.no/boliger/1569532",
     "image": "https://images.eiendomsmegler1.no/PQ9ErzUucYIHE9x5E6JvDGz0SwQ=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fb19d7170-4563-4823-a80a-cf755f908080%2FImages%2Fd51749fb-3a39-4154-9171-e9d4427a96a8%2FOriginal",
     "building_type": "Nybygg",
@@ -926,15 +951,6 @@
     "city": "BODØ",
     "address": "Tollbugata 11",
     "asking_price": "2949750-5545875"
-}, 
-"Oksebakkveien": {
-    "link": "https://www.eiendomsmegler1.no/boliger/9220145",
-    "image": "https://images.eiendomsmegler1.no/8fF1xr9ksLEsRWebyQ4Pc-TmjFo=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F6b6ce9dd-f451-4b2c-b30d-f30d373b5211%2FImages%2F9a298b15-7ef8-4123-9bd9-cbfc26691613%2FOriginal",
-    "building_type": "Nybygg",
-    "primary_room_size": "",
-    "city": "BODØ",
-    "address": "Oksebakkveien",
-    "asking_price": "7490000-8250000"
 }, 
 "Sandhorngata 34": {
     "link": "https://www.eiendomsmegler1.no/boliger/4673539",
@@ -944,60 +960,6 @@
     "city": "BODØ",
     "address": "Sandhorngata 34",
     "asking_price": "2850000"
-}, 
-"Oksebakkveien_115": {
-    "link": "https://www.eiendomsmegler1.no/boliger/9960489",
-    "image": "https://images.eiendomsmegler1.no/MWMWO7XYM-SKlUjjHa-PMVxgGqU=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F30efb548-9b50-4124-b4b4-a2fbda562df9%2FImages%2F36e6c64f-9db6-4acf-bb91-ab799190d5be%2FOriginal",
-    "building_type": "Nybygg",
-    "primary_room_size": "147 m²",
-    "city": "BODØ",
-    "address": "Oksebakkveien",
-    "asking_price": "7590000"
-}, 
-"Oksebakkveien_116": {
-    "link": "https://www.eiendomsmegler1.no/boliger/9239195",
-    "image": "https://images.eiendomsmegler1.no/8tKF76Dl8qC6Ha55WXbmXrSpP58=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F2927faf7-13b9-4858-a6ec-075eab4b811e%2FImages%2F7273bb87-d647-4d78-9f02-7f9b62b1fdce%2FOriginal",
-    "building_type": "Nybygg",
-    "primary_room_size": "147 m²",
-    "city": "BODØ",
-    "address": "Oksebakkveien",
-    "asking_price": "7490000"
-}, 
-"Oksebakkveien_117": {
-    "link": "https://www.eiendomsmegler1.no/boliger/4950190",
-    "image": "https://images.eiendomsmegler1.no/L0GFdxMxyzuLmpOCa_27804uXjA=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F5a56da45-8407-426d-a30d-2a6a84b60581%2FImages%2F51c5314a-28b9-4f1c-aeef-0c789fd6f974%2FOriginal",
-    "building_type": "Nybygg",
-    "primary_room_size": "147 m²",
-    "city": "BODØ",
-    "address": "Oksebakkveien",
-    "asking_price": "7490000"
-}, 
-"Oksebakkveien_118": {
-    "link": "https://www.eiendomsmegler1.no/boliger/5794274",
-    "image": "https://images.eiendomsmegler1.no/nKPGABToTwzodRtNkpcTzipY11o=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F95a34eef-b563-4447-948d-4d9320ecb0fb%2FImages%2F5603de70-924b-4d44-8b7b-8069919ad124%2FOriginal",
-    "building_type": "Nybygg",
-    "primary_room_size": "174 m²",
-    "city": "BODØ",
-    "address": "Oksebakkveien",
-    "asking_price": "8250000"
-}, 
-"Oksebakkveien_119": {
-    "link": "https://www.eiendomsmegler1.no/boliger/3229774",
-    "image": "https://images.eiendomsmegler1.no/DRUm6BfT8PLUaJwcY4oz1ApiPIw=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F292e1449-6923-420d-8ce8-0b0c06e63ca0%2FImages%2F77364eb1-0675-4475-b81d-c33d28bd4a02%2FOriginal",
-    "building_type": "Nybygg",
-    "primary_room_size": "175 m²",
-    "city": "BODØ",
-    "address": "Oksebakkveien",
-    "asking_price": "7550000"
-}, 
-"Oksebakkveien_120": {
-    "link": "https://www.eiendomsmegler1.no/boliger/8187072",
-    "image": "https://images.eiendomsmegler1.no/q6AimBTwjptHFdDfFvjYBMU-la0=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2Fa0003b71-b4a3-4311-af1b-27de9a5ae531%2FImages%2F45ac9c14-6d7f-4ee5-9614-7124c1025186%2FOriginal",
-    "building_type": "Nybygg",
-    "primary_room_size": "175 m²",
-    "city": "BODØ",
-    "address": "Oksebakkveien",
-    "asking_price": "7590000"
 }, 
 "Havblikk Bygg E": {
     "link": "https://www.eiendomsmegler1.no/boliger/0503331",
@@ -1125,7 +1087,7 @@
     "address": "Sjøåsan Øst B15-2",
     "asking_price": ""
 }, 
-"Skauveien_135": {
+"Skauveien_77": {
     "link": "https://www.eiendomsmegler1.no/boliger/7192945",
     "image": "https://images.eiendomsmegler1.no/KB43Yv8hSV1leu5Yv7gm1Vv6tG0=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F24ecc3b4-1032-4f31-bd1e-a4e3302fed05%2FImages%2Fff879a23-c391-451f-9fef-0e0d5d18e145%2FOriginal",
     "building_type": "Nybygg",
@@ -1142,14 +1104,5 @@
     "city": "BODØ",
     "address": "Per Helgesens Vei 18",
     "asking_price": ""
-}, 
-"Saltstraumveien 1054": {
-    "link": "https://www.eiendomsmegler1.no/boliger/8697749",
-    "image": "https://images.eiendomsmegler1.no/C9ENLCwc_9vkYlx8pZDN9a0oq_4=/300x200/filters:blur(0):quality(100):strip_exif():strip_icc()/https%3A%2F%2Fem1nn.webtopsolutions.com%2Fflow%2F%2Fapi%2FPublic%2FCases%2F1cdc51ef-78f8-4963-b21a-ea0b7f2ffc28%2FImages%2Fb95b34a7-5c82-4fde-98f1-da780e2c6569%2FOriginal",
-    "building_type": "Fritidsbolig",
-    "primary_room_size": "",
-    "city": "SALTSTRAUMEN",
-    "address": "Saltstraumveien 1054",
-    "asking_price": "3900000"
 }, 
 "":""}
