@@ -1,44 +1,9 @@
 <template>
   <div>
     <div class="form-row align-items-center">
-      <div class="form-group col-md-4">
-        <label for="search">Søk på adresse eller lenke</label>
-        <input
-          class="form-control"
-          type="text"
-          name="search"
-          id="search"
-          placeholder="Søk adresse/lenke"
-          v-model="searchText"
-          @change="searchAll"
-        />
-      </div>
-      <div class="form-group col-md-2">
-        <label for="priceFrom">Pris fra (Prisantydning)</label>
-        <input
-          class="form-control"
-          type="text"
-          name="priceFrom"
-          id="searchPriceFrom"
-          pattern="([0-9]+.{0,1}[0-9]*,{0,1})*[0-9]"
-          placeholder="Pris fra"
-          v-model="searchPriceFrom"
-          @change="searchAll"
-        />
-      </div>
-      <div class="form-group col-md-2">
-        <label for="priceTo">Pris til (Prisantydning)</label>
-        <input
-          class="form-control"
-          type="text"
-          name="priceTo"
-          id="searchPriceTo"
-          pattern="([0-9]+.{0,1}[0-9]*,{0,1})*[0-9]"
-          placeholder="Pris til"
-          v-model="searchPriceTo"
-          @change="searchAll"
-        />
-      </div>
+      <InputText ref="searchText" name="searchText" labelText="Søk på adresse eller lenke" @search="searchAll"></InputText>
+      <InputNumber ref="priceFrom" name="price_from" labelText="Pris fra" @search="searchAll"></InputNumber>
+      <InputNumber ref="priceTo" name="price_to" labelText="Pris til" @search="searchAll"></InputNumber>
       <div class="form-group col-md-1">
         <label for="bedrooms">Soverom</label>
         <select
@@ -73,98 +38,56 @@
           <h3>Søkeresultat</h3>
         </div>
       </div>
-      <table class="table table-primary">
-        <thead>
-          <tr>
-            <th>Bilde</th>
-            <th>Adresse</th>
-            <th @click="orderBy('rooms')">Soverom</th>
-            <th>Size</th>
-            <th @click="orderBy('type')">Type</th>
-            <th @click="orderBy('asking_price')">Priantydning</th>
-            <th @click="orderBy('total_price')">Totalpris</th>
-            <th>Lenke</th>
-            <th>Område</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="building in searchResult" :key="building.key">
-            <td><img :src="building.image" class="table_image" /></td>
-            <td>{{ building.address }}, {{ building.zip_code }}</td>
-            <td>{{ building.bedrooms || "Ikke spesifisert" }}</td>
-            <td>{{ building.primary_room_size }}</td>
-            <td>{{ building.type || "Ikke spesifisert" }}</td>
-            <td>{{ Number(building.asking_price).toLocaleString() }}</td>
-            <td>{{ Number(building.total_price).toLocaleString() }}</td>
-            <td>
-              <a :href="building.link">Lenke</a>
-            </td>
-            <td>
-              {{ building.area || `${building.city}, ${building.zip_code}` }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <BuildingTable tableType="table-primary" :buildings="searchResult"></BuildingTable>
     </div>
   </div>
   <div class="row"></div>
   <div class="row">
     <div class="col-md-12">
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th>Bilde</th>
-            <th>Adresse</th>
-            <th @click="orderBy('rooms')">Soverom</th>
-            <th>Size</th>
-            <th @click="orderBy('type')">Type</th>
-            <th @click="orderBy('asking_price')">Priantydning</th>
-            <th @click="orderBy('total_price')">Totalpris</th>
-            <th>Lenke</th>
-            <th>Område</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="building in Buildings" :key="building.key">
-            <td><img :src="building.image" class="table_image" /></td>
-            <td>{{ building.address }}, {{ building.zip_code }}</td>
-            <td>{{ building.bedrooms || "Ikke spesifisert" }}</td>
-            <td>{{ building.primary_room_size }}</td>
-            <td>{{ building.type || "Ikke spesifisert" }}</td>
-            <td>{{ Number(building.asking_price).toLocaleString() }}</td>
-            <td>{{ Number(building.total_price).toLocaleString() }}</td>
-            <td>
-              <a :href="building.link">Lenke</a>
-            </td>
-            <td>
-              {{ building.area || `${building.city}, ${building.zip_code}` }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <BuildingTable tableType="table-striped" :buildings="Buildings"></BuildingTable>
     </div>
   </div>
 </template>
 <script>
 import { ref, onMounted } from "vue";
+import InputNumber from "./InputNumber";
+import InputText from "./InputText";
+import BuildingTable from "./BuildingTable"
+
 
 export default {
+  components: { BuildingTable, InputNumber, InputText },
   setup() {
     const Buildings = ref([]);
     const ascending = ref(false);
-    const searchText = ref("");
-    const searchPriceFrom = ref("0");
-    const searchPriceTo = ref("0");
+    const searchText = ref(null);
+    const priceFrom = ref(null);
+    const priceTo = ref(null);
     const searchResult = ref([]);
     const searchBedroom = ref(0);
     const bedroomCount = ref(1);
     onMounted(() => {
-      fetchData();
+      fetchDataLocal();
+      // fetchData();
     });
 
     async function fetchData() {
+      
       const URLs = ["data_eiendomsmegler1.json", "data_dnbeiendom.json", "data_eie.json", "data_privatmegleren.json"];
       const promises = URLs.map(url => fetch("data/" + url).then(response => response.json()));
+      const values = await Promise.all(promises);
+      values.forEach(value => {
+        let keys = Object.keys(value);
+        keys = keys.filter(key => key.length > 0);
+        addBuildingDataToBuildings(keys, value);
+      });
+
+      Buildings.value.sort((a, b) => (a.total_price > b.total_price ? 1 : -1));
+    }
+    
+    async function fetchDataLocal() {      
+      const URLs = ["data_eiendomsmegler1.json", "data_dnbeiendom.json", "data_eie.json", "data_privatmegleren.json"];
+      const promises = URLs.map(url => require("../../data/" + url)); //fetch("data/" + url).then(response => response.json()));
       const values = await Promise.all(promises);
       values.forEach(value => {
         let keys = Object.keys(value);
@@ -198,18 +121,18 @@ export default {
 
     function search() {
       searchResult.value = [];
-      if (searchText.value.length <= 0) return;
+      if (searchText.value.search.length <= 0) return;
       Buildings.value.forEach((building) => {
         if (
           building["address"]
             ?.toLowerCase()
-            .includes(searchText.value.toLowerCase())
+            .includes(searchText.value.search.toLowerCase())
         ) {
           searchResult.value.push(building);
         } else if (
           building["link"]
             ?.toLowerCase()
-            .includes(searchText.value.toLowerCase())
+            .includes(searchText.value.search.toLowerCase())
         ) {
           searchResult.value.push(building);
         }
@@ -228,12 +151,12 @@ export default {
     function priceSearch() {
       searchResult.value = [];
 
-      const priceTo = parseInt(searchPriceTo.value);
+      const priceTo = parseInt(priceTo.value.price);
       if (priceTo <= 0) return;
-      if (parseInt(searchPriceFrom.value) > priceTo) {
-        searchPriceFrom.value = priceTo;
+      if (parseInt(priceFrom.value.price) > priceTo) {
+        priceFrom.value.price = priceTo;
       }
-      const priceFrom = parseInt(searchPriceFrom.value);
+      const priceFrom = parseInt(priceFrom.value.price);
       Buildings.value.forEach((building) => {
         const buildingPrice = parseInt(building["asking_price"]);
         if (buildingPrice > priceFrom && buildingPrice < priceTo) {
@@ -244,18 +167,18 @@ export default {
 
     function searchAll() {
       searchResult.value = [];
-      const priceTo = parseInt(searchPriceTo.value);
+      const localPriceTo = parseInt(priceTo.value.price);
       if (
-        priceTo <= 0 &&
+        localPriceTo <= 0 &&
         searchBedroom.value == 0 &&
-        searchText.value.length <= 0
+        searchText.value.search.length <= 0
       )
         return;
 
-      if (parseInt(searchPriceFrom.value) > priceTo) {
-        searchPriceFrom.value = priceTo;
+      if (parseInt(priceFrom.value.price) > localPriceTo) {
+        priceFrom.value.price = localPriceTo;
       }
-      const priceFrom = parseInt(searchPriceFrom.value);
+      const localPriceFrom = parseInt(priceFrom.value.price);
       Buildings.value.forEach((building) => {
         const bedrooms = parseInt(building["bedrooms"]);
         const buildingPrice = parseInt(building["asking_price"]);
@@ -267,11 +190,11 @@ export default {
           bedroomMatch = false;
         }
         let priceMatch = true;
-        if (priceTo > 0 && (buildingPrice < priceFrom || buildingPrice > priceTo)) {
+        if (localPriceTo > 0 && (buildingPrice < localPriceFrom || buildingPrice > localPriceTo)) {
           priceMatch = false;
         }
         let searchMatch = true;
-        const searchTextSmall = searchText.value.toLowerCase();
+        const searchTextSmall = searchText.value.search.toLowerCase();
         if (searchTextSmall.length > 0 && !address?.toLowerCase().includes(searchTextSmall) && !link?.toLowerCase().includes(searchTextSmall)) {
           searchMatch = false;
         }
@@ -282,9 +205,9 @@ export default {
     }
 
     function clearFilter() {
-      searchText.value = "";
-      searchPriceTo.value = 0;
-      searchPriceFrom.value = 0;
+      searchText.value.search = "";
+      priceTo.value.price = 0;
+      priceFrom.value.price = 0;
       searchBedroom.value = 0;
       searchResult.value = [];
     }
@@ -295,14 +218,14 @@ export default {
       search,
       searchText,
       searchResult,
-      searchPriceFrom,
-      searchPriceTo,
+      priceFrom,
+      priceTo,
       bedroomSearch,
       priceSearch,
       bedroomCount,
       searchBedroom,
       clearFilter,
-      searchAll,
+      searchAll
     };
   },
 };
